@@ -466,7 +466,7 @@ p {
                      Services 
 -------------------------------------------------------- */
 .services .item {
-  padding: 30px 20px;
+  padding: 10px 10px;
   background: #fff;
   -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
@@ -478,9 +478,9 @@ p {
   color: #eee;
 }
 .services .item .icon {
-  font-size: 30px;
+  font-size: 10px;
   margin-bottom: 20px;
-  width: 70px;
+  width: 20px;
   height: 70px;
   line-height: 70px;
   background: #f4f4f4;
@@ -490,12 +490,19 @@ p {
 }
 .services .item h6 {
   margin-bottom: 15px;
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 12px;
 }
+
+.services .item h3 {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
 .services .item p {
   word-spacing: 2px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 /* -------------------------------------------------------
@@ -584,6 +591,8 @@ p {
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
 }
+
+
 
 /* -------------------------------------------------------
                      Clients 
@@ -1075,8 +1084,8 @@ body{
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: var(--spacing-l);
-  grid-row-gap: var(--spacing-l);
+  grid-column-gap: var(--spacing-s);
+  grid-row-gap: var(--spacing-xl);
   max-width: 500px;
   width: 100%;
 }
@@ -1096,13 +1105,13 @@ body{
 .card{
   list-style: none;
   position: relative;
-  padding: var(--spacing-s);
+  padding: var(--spacing-m);
 }
 
 .card:before{
   content: '';
   display: block;
-  padding-bottom: 60%;
+  padding-bottom: 85%;
   width: 100%;
 }
 
@@ -1140,16 +1149,16 @@ body{
 
 .card__category{
   color: var(--text-light);
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
 }
 
 .card__heading{
   color: var(--text-lighter);
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
-  line-height: 1.4;
+  line-height: 1.8;
   word-spacing: 80vw;
 }
 
