@@ -1,0 +1,542 @@
+<!doctype html>
+
+<html class="no-js" lang="zxx">
+
+    <head>
+
+    	<!-- metas -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       	<meta name="description" content="Daniels is a responsive creative template">
+		<meta name="keywords" content="portfolio, personal, corporate, business, parallax, creative, agency">
+
+		<!-- title -->
+		<title>blltskn</title>
+
+		<!-- favicon -->
+        <link href="img/favicon.ico" rel="icon" type="image/png">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+                
+        <!-- bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
+
+		<!-- owl carousel CSS -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+		<!-- magnific-popup CSS -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+
+		<!-- animate.min CSS -->
+		<link rel="stylesheet" href="css/animate.min.css">
+
+		<!-- Font Icon Core CSS -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/et-line.css">
+
+		<!-- Core Style Css -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--[if lt IE 9]-->
+		<script src="js/html5shiv.min.js"></script>
+		<!--[endif]-->
+
+    </head>
+    
+    <body>
+
+    	<!-- ====== Preloader ======  -->
+	    <div class="loading">
+			<div class="load-circle">
+			</div>
+		</div>
+		<!-- ======End Preloader ======  -->
+
+		<!-- ====== Navgition ======  -->
+		<nav class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+		       <!-- logo -->
+               <div class="logo">
+                 <span id="logoText"></span><span class="cursor">|</span>
+               </div>
+               
+               <script>
+                 const logoText = 'blltskn';
+                 const element = document.getElementById('logoText');
+                 let i = 0;
+
+                 function typeLogo() {
+                   if (i < logoText.length) {
+                     element.innerHTML += logoText.charAt(i);
+                     i++;
+                     setTimeout(typeLogo, 250); // Adjust typing speed as needed
+                   }
+                 }
+
+                 // Start typing effect after a 1-second delay
+                 setTimeout(() => {
+                   typeLogo();
+                 }, 1000); // 1000 milliseconds = 1 second
+               </script>
+
+		    </div>
+
+		    <!-- Collect the nav links, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="nav-icon-collapse">
+		      
+			  <!-- links -->
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#" data-scroll-nav="1" class="active">About me</a></li>
+		        <li><a href="#" data-scroll-nav="4">Research</a></li>
+                <li><a href="uploads/CVitae_Taskin_Bilal.pdf">Vita</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+		<!-- ====== End Navgition ======  -->
+
+        <!-- ====== Header ====== -->
+    
+        <!-- ====== End Header ====== -->
+
+		<!-- ====== Hero ======  -->
+		<section class="hero section-padding pb-70" data-scroll-index="1">
+			<div class="container">
+				<div class="row">
+
+					<!-- hero image -->
+                    <div class="col-md-5">
+                      <div class="hero-img mb-30">
+                        <img src="img/avatar.jpg" alt="" style="border-radius: 50%; width: 230px; height: 250px;"> <!-- Adjust width and height as needed -->
+                      </div>
+                      <div class="name-affiliation">
+                          <h4>Bilal Taskin</h4>
+                              <p><a href="https://www.econ.uni-bonn.de/en" target="_blank" class="neon-link">University of Bonn</a></p>
+                              
+                            </div>
+                     <!-- <div class="social-icon">
+                        <a href="mailto:bilal.taskin@uni-bonn.de"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                        <a href="#0"><span><i class="fa-brands fa-hackerrank" aria-hidden="true"></i></span></a>
+                        <a href="#0"><span><i class="fa-brands fa-researchgate" aria-hidden="true"></i></span></a>
+                        <a href="#0"><span><i class="fa-brands fa-orcid" aria-hidden="true"></i></span></a>
+                      
+                      
+                      </div> -->
+                     
+                     <div class="social-menu">
+                       <ul>
+                         <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                         <li><a href=""><i class="fa fa-hackerrank"></i></a></li>
+                         <li><a href=""><i class="fa fa-researchgate"></i></a></li>
+                         <li><a href=""><i class="fa fa-orcid"></i></a></li>
+                       </ul>
+                     </div>
+                  
+                    </div>
+                    
+                    
+                    
+                    <!-- hero image
+                    <audio id="background-audio" loop autoplay>
+                      <source src="audio/bminor_rock_bassgroove_120bpm-30321.mp3" type="audio/mpeg">
+                      
+                    </audio>
+
+                    <button id="toggle-audio">
+                        <i class="fa-solid fa-pause"></i>
+                        <i class="fa-solid fa-pause"></i>
+                    </button>
+                    
+                    
+
+                    <script>
+                      const audio = document.getElementById("background-audio");
+                      const toggleButton = document.getElementById("toggle-audio");
+                      const playIcon = toggleButton.querySelector(".fa-play");
+                      const pauseIcon = toggleButton.querySelector(".fa-pause");
+
+                      // Function to toggle between play and pause
+                      function toggleAudio() {
+                        if (audio.paused) {
+                          audio.play();
+                          audio.muted = false; // Unmute the audio
+                          playIcon.style.display = "none"; // Hide play icon
+                          pauseIcon.style.display = "inline"; // Show pause icon
+                        } else {
+                          audio.pause();
+                          playIcon.style.display = "inline"; // Show play icon
+                          pauseIcon.style.display = "none"; // Hide pause icon
+                        }
+                      }
+
+                      // Add a click event listener to the button
+                      toggleButton.addEventListener("click", toggleAudio);
+
+                      // Automatically play the audio when the page loads
+                      window.addEventListener("load", function () {
+                        audio.play();
+                        playIcon.style.display = "none"; // Hide play icon
+                        pauseIcon.style.display = "inline"; // Show pause icon
+                      });
+                    </script> -->
+
+
+					<!-- content -->
+					<div class="col-md-7">
+						<div class="content mb-30">
+							<h3>Welcome.</h3>
+                            <!-- content 	<span class="sub-title">UI / UX Designer & Web Developer</span> -->
+							<p style="text-align: justify;"> I am a graduate student in Economics at the University of Bonn. My academic pursuits chiefly encompass econometric theory and applied econometrics, intersecting applied microeconomics, behavioral and experimental economics, and state-of-the-art computational techniques. Please find below further information about me, including my specific fields of interest.<br>
+                            Thank you for visiting!</p>
+                            
+            
+
+							<!-- skills progress
+							<div class="skills">
+								<div class="item">
+									<div class="skills-progress">
+										<h6>Web Design</h6>
+										<span data-value="95%"></span>
+									</div>
+								</div>
+								<div class="item">
+									<div class="skills-progress">
+										<h6>Branding</h6>
+										<span data-value="80%"></span>
+									</div>
+								</div>
+								<div class="item">
+									<div class="skills-progress">
+										<h6>Development</h6>
+										<span data-value="90%"></span>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+                            <!--
+							<a href="#0" download>
+								<span class="buton buton-bg">Download C.V</span>
+							</a>
+							<a href="#0" data-scroll-nav="6">
+								<span class="buton">Contact Me</span>
+							</a>-->
+                            
+                            
+                            <!-- Social Icons
+                            <div class="social-icon">
+                              <a href="#0"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                              <a href="#0"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                              <a href="#0"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                              <a href="#0"><span><i class="fa fa-behance" aria-hidden="true"></i></span></a>
+                              <a href="#0"><span><i class="fa fa-youtube" aria-hidden="true"></i></span></a>
+                            </div>
+                            -->
+
+						</div>
+                        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+                            
+                            <div class="card-grid">
+                              <a class="card" href="https://www.econ.uni-bonn.de/macro/en" target="_blank">
+                                <div class="card__background" style="background-color: #343a40;"></div>
+                                <div class="card__content">
+                                  <p class="card__category">Institute of Macroeconomics and Econometrics</p>
+                                  <h3 class="card__heading">Research Assistant</h3>
+                                </div>
+                              </a>
+                              <a class="card" href="https://www.coll.mpg.de/" target="_blank">
+                                <div class="card__background" style="background-color: #495057;"></div>
+                                <div class="card__content">
+                                  <p class="card__category">Max Planck Institute for Research on Collective Goods</p>
+                                  <h3 class="card__heading">Research Assistant</h3>
+                                </div>
+                              </a>
+                              <a class="card" href="https://www.econ.uni-bonn.de/micro/en" target="_blank">
+                                <div class="card__background" style="background-color: #adb5bd;"></div>
+                                <div class="card__content">
+                                  <p class="card__category">Institute of Microeconomic Theory</p>
+                                  <h3 class="card__heading">Teaching Assistant</h3>
+                                </div>
+                              </li>
+                              <a class="card" href="https://enagrup.org/?hl=en" target="_blank">
+                                <div class="card__background" style="background-color: #ced4da;"></div>
+                                <div class="card__content">
+                                  <p class="card__category">ENAG Inflation Research Group</p>
+                                  <h3 class="card__heading">Researcher</h3>
+                                </div>
+                              </a>
+                            <div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+		<!-- ====== End Hero ======  -->
+        
+        
+
+     
+
+		<!-- ====== Services ======  -->
+		<section class="services section-padding bg-gray text-center pb-70" data-scroll-index="2">
+			<div class="container">
+
+				<!-- section heading -->
+				<div class="section-head">
+					<h3>Areas of interest.</h3>
+				</div>
+
+				<div class="row">
+
+					<!-- items -->
+					<div class="col-md-4">
+						<div class="item">
+							<h6>Econometrics</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<h6>Nonparametric Statistics</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<h6>Causal Inference</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<h6>Functional Data Analysis</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<h6>Machine Learning</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<h6>High Dimentionality</h6>
+						</div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+		<!-- ====== End Services ======  -->
+
+		<!--====== Clients ======-->
+		<section class="clients section-padding pb-70" data-scroll-index="4">
+			<div class="container">
+				<div class="row">
+
+					<!-- section heading -->
+					<div class="section-head">
+						<h3>Publications.</h3>
+                    </div>
+
+                     <!-- List of Publications -->
+                     <ul class="publication-list">
+                       <!-- Publication 1 -->
+                       <li>
+                         <a href="publication1.html" target="_blank">
+                             Taskin, Bilal and Beyaz Ramazanli. <i>Synthetic Controls over Random Coefficient Networks with Spillover Effects.</i> In progress.
+                         </a>
+                       </li>
+
+                       <!-- Publication 2 -->
+                       <li>
+                         <a href="publication2.html" target="_blank">
+                             Taskin, Bilal and Fuat Akal. “Tales of Turbulence: BERT-based Multimodal Analysis of FED Communication Dynamics
+                             Amidst COVID-19 Through FOMC Minutes.” <i>Journal of Computational Economics.</i> Forthcoming.
+                         </a>
+                       </li>
+
+                       <!-- Publication 3 -->
+                       <li>
+                         <a href="publication3.html" target="_blank">
+                           CPMI Working Group. “Operational and Technical Considerations for Extending and Aligning Payment System Op-
+                           erating Hours for Cross-Border Payments: An Analytical Framework.” CPMI Papers No. D214. Basel: Bank for
+                           International Settlements (BIS), 2023.
+                           [Online: <span class="url">https://www.bis.org/cpmi/publ/d203.htm</span>]
+                         </a>
+                       </li>
+                       <!-- Publication 3 -->
+                       
+                       <li>
+                         <a href="publication4.html" target="_blank">
+                             CPMI Working Group. “Extending and Aligning Payment System Operating Hours for Cross-Border Payments - Final
+                             Report.” CPMI Papers No. D203. Basel: Bank for International Settlements (BIS), 2022.
+                           [Online: <span class="url">https://www.bis.org/cpmi/publ/d203.htm</span>]
+                         </a>
+                       </li>
+                       
+                       <!-- Publication 4 -->
+                       
+                       <li>
+                         <a href="publication4.html" target="_blank">
+                             CPMI Working Group. “Improving Access to Payment Systems for Cross-Border Payments.” CPMI Papers No. D202.
+                             Basel: Bank for International Settlements (BIS), 2022.
+                           [Online: <span class="url">https://www.bis.org/cpmi/publ/d202.htm</span>]
+                         </a>
+                       </li>
+                       
+                       <!-- Publication 5 -->
+                       
+                       <li>
+                         <a href="publication4.html" target="_blank">
+                             CPMI Working Group. “Extending and Aligning Payment System Operating Hours for Cross-Border Payments -
+                             Consultative Report.” CPMI Papers No. D199. Basel: Bank for International Settlements (BIS), 2021.
+                           [Online: <span class="url">https://www.bis.org/cpmi/publ/d199.htm</span>]
+                         </a>
+                       </li>
+                     </ul>
+                   </div><!-- /row -->
+                 </div><!-- /container -->
+               </section>
+		<!--====== End clients ======-->
+
+
+		<!--====== Contact ======-->
+		<section class="contact section-padding bg-gray" data-scroll-index="6">
+			<div class="container">
+				<div class="row">
+					
+					<!-- section heading -->
+					<div class="section-head">
+						<h3>Contact me.</h3>
+					</div>
+
+					<div class="col-md-offset-1 col-md-10">
+
+						<!-- contact info -->
+						<div class="info text-center mb-50">
+
+                            <div class="col-md-4">
+								<div class="item">
+									<span class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+									<h6>Address</h6>
+									<p>53115 Bonn, Germany</p>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="item">
+									<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+									<h6>Email</h6>
+									<p>bilal.taskin@uni-bonn.de</p>
+								</div>
+							</div>
+
+                            <!--<div class="col-md-4">
+								<div class="item">
+									<span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+									<h6>Phone</h6>
+									<p>+20 010 2517 8918</p>
+								</d
+							<div class="clearfix"></div>
+						</div> iv>
+                            </div>
+
+						<!-- contact form
+						<form class="form" id="contact-form" method="post" action="contact.php">
+		                    <div class="messages"></div>
+
+		                    <div class="controls">
+
+		                        <div class="row">
+		                            <div class="col-md-6">
+		                                <div class="form-group">
+		                                    <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+		                                </div>
+		                            </div>
+
+		                             <div class="col-md-6">
+		                                <div class="form-group">
+		                                    <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-md-12">
+		                                <div class="form-group">
+		                                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+		                                </div>
+
+		                                <input type="submit" value="Submit" class="buton buton-bg">
+		                            </div>
+		                        </div>
+		                    </div>
+		                </form>
+
+					</div>
+				</div><!-- /row
+			</div><!-- /container -->
+		</section>
+		<!--====== End Contact ======-->
+
+		<!--====== Footer ======-->
+		<footer>
+			<div class="container text-center">
+				<div class="row">
+					<p>Copy Right 2023 &copy; By Bilal Taskin All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+		<!--====== End Footer ======-->
+
+
+
+       
+        <!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+	  	<!-- bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- scrollIt -->
+		<script src="js/scrollIt.min.js"></script>
+
+		<!-- magnific-popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+
+		<!-- owl carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+
+		<!-- stellar js -->
+		<script src="js/jquery.stellar.min.js"></script>
+
+		<!-- animated.headline -->
+		<script src="js/animated.headline.js"></script>
+
+      	<!-- jquery.waypoints.min js -->
+	  	<script src="js/jquery.waypoints.min.js"></script>
+
+	  	<!-- jquery.counterup.min js -->
+	  	<script src="js/jquery.counterup.min.js"></script>
+
+      	<!-- isotope.pkgd.min js -->
+      	<script src="js/isotope.pkgd.min.js"></script>
+
+      	<!-- validator js -->
+      	<script src="js/validator.js"></script>
+
+      	<!-- custom script -->
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
