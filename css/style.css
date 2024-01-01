@@ -444,6 +444,12 @@ p {
   margin-top: 20px;
 }
 
+.name-affiliation p a {
+    color: #333; /* Default color */
+    text-shadow: none; /* No text shadow by default */
+    transition: color 0.3s ease, text-shadow 0.6s ease; /* Add transition for color and text-shadow */
+}
+
 .name-affiliation p a:hover {
     color: #4a4e69; /* Neon color on hover */
     text-shadow: 0 0 10px #8d99ae, 0 0 20px #8d99ae, 0 0 30px #8d99ae; /* Neon glow effect */
@@ -453,13 +459,13 @@ p {
 .publication-list li a {
     text-decoration: none !important;
     color: #333; /* Default text color */
-    transition: color 0.8s !important; /* Smooth transitions for color and text-shadow */
+    transition: color 0.3s ease, text-shadow 0.3s ease !important; /* Smooth transitions for color and text-shadow */
 }
 
 /* Apply neon hover effect */
 .publication-list li a:hover {
     color: #4a4e69; /* Neon color on hover */
-    text-shadow: 0 0 10px #8d99ae, 0 0 20px #8d99ae, 0 0 30px #8d99ae; /* Neon glow effect */
+    text-shadow: 0 0 10px #8d99ae, 0 0 5px #8d99ae, 0 0 5px #8d99ae; /* Neon glow effect */
 }
 
 /* -------------------------------------------------------
@@ -975,7 +981,7 @@ footer p {
 /* -------------------------------------------------------
                     Responsive
 -------------------------------------------------------- */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .navbar-default .logo {
     margin-left: 20px;
   }
@@ -1215,3 +1221,4 @@ body{
 .social-menu ul li:nth-child(5) a:hover {
      /* background-color: #000000;*/
 }
+
