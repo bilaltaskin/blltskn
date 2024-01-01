@@ -502,6 +502,11 @@ p {
     text-shadow: 0 0 10px #8d99ae, 0 0 20px #8d99ae, 0 0 30px #8d99ae; /* Neon glow effect */
 }
 
+.name-affiliation h4 {
+    margin-top: 10%;
+    margin-left: 65px; /* Adjust this value as needed */
+}
+
 
 .publication-list li a {
     text-decoration: none !important;
@@ -1218,8 +1223,8 @@ body{
 
 .social-menu ul {
     position: absolute;
-    top: 115%;
-    left: 37%;
+    top: 108%;
+    left: 35%;
     transform: translate(-50%, -50%);
     padding: 0;
     margin: 0;
