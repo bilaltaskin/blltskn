@@ -181,11 +181,11 @@ p {
                      Navbar 
 -------------------------------------------------------- */
 .navbar-default {
+    position: fixed !important;
   padding: 20px 0 30px;
-  background: none;
+  background: #fff;
   border: none;
   border-radius: 0;
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
