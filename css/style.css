@@ -1282,12 +1282,12 @@ body{
     position: relative;
     margin: 10px auto;
     right: 23px;
-    bottom: 40px;
+    bottom: 10px;
     pointer-events: fill;
     cursor: pointer;
   -webkit-transform: perspective(900px);
   transform: perspective(900px);
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 .skills-top-circle{
     position: absolute;
