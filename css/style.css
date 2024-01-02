@@ -527,6 +527,7 @@ p {
 /* -------------------------------------------------------
                      Services
 -------------------------------------------------------- */
+
 .services .item {
   padding: 10px 10px;
   background: #fff;
@@ -565,6 +566,12 @@ p {
 .services .item p {
   word-spacing: 2px;
   font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    .row .col-md-6 {
+        padding: 5px; /* or any other value */
+    }
 }
 
 /* -------------------------------------------------------
