@@ -1285,7 +1285,7 @@ body{
     height: 350px;
     position: relative;
     margin: 10px auto;
-    right: 203px;
+    right: 140px;
     bottom: 0px;
     pointer-events: fill;
     cursor: pointer;
@@ -1456,15 +1456,15 @@ body{
   width: 7em;
   height: 9em;
   top: 190%;
-  left: 65%;
+  left: 60%;
   margin: -6.5em 0 0 -5em;
   -webkit-backface-visibility: hidden;
   font-family: 'Ubuntu', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   text-align: center;
 }
 .deck__item {
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   position: absolute;
   border-radius: 0.3em;
   border: 0.1em solid rgba(0, 0, 0, 0.15);
