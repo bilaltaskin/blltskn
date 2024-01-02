@@ -267,11 +267,11 @@ p {
   /* Your existing .logo styles */
   color: #1c1c1c;
   float: left;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-right: 300px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
-  text-transform: lowercase;
+  /*text-transform: lowercase; */
   letter-spacing: 1px;
 }
 .logo:hover, .logo:focus {
