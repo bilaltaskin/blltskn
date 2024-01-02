@@ -75,17 +75,33 @@
                <div class="logo">
                  <span id="logoText"></span><span class="cursor">_</span>
                </div>
-               
+
                <script>
-                 const logoText = 'blltskn';
+                 const words = ["Researcher", "Econometrician", "former Central Banker", "Data Scientist"];
+                 const initialText = "blltskn | ";
                  const element = document.getElementById('logoText');
                  let i = 0;
+                 let wordIndex = 0;
 
                  function typeLogo() {
-                   if (i < logoText.length) {
-                     element.innerHTML += logoText.charAt(i);
+                   const currentText = initialText + words[wordIndex];
+                   if (i < currentText.length) {
+                     element.innerHTML += currentText.charAt(i);
                      i++;
                      setTimeout(typeLogo, 250); // Adjust typing speed as needed
+                   } else {
+                     setTimeout(eraseLogo, 1000); // Wait 1 second before erasing
+                   }
+                 }
+
+                 function eraseLogo() {
+                   if (i > initialText.length) {
+                     element.innerHTML = initialText.substring(0, i - 1);
+                     i--;
+                     setTimeout(eraseLogo, 100); // Adjust erasing speed as needed
+                   } else {
+                     wordIndex = (wordIndex + 1) % words.length; // Cycle through the words
+                     setTimeout(typeLogo, 500); // Wait 0.5 seconds before typing the next word
                    }
                  }
 
@@ -102,7 +118,6 @@
               <!-- links -->
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" data-scroll-nav="1" class="active">About me</a></li>
-                <li><a href="#" data-scroll-nav="3">Experience</a></li>
                 <li><a href="#" data-scroll-nav="4">Research</a></li>
                 <li><a href="uploads/CVitae_Taskin_Bilal.pdf">Vita</a></li>
               </ul>
