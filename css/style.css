@@ -1452,12 +1452,12 @@ body{
   box-sizing: border-box;
 }
 .deck {
-  position: absolute;
+  position: relative;
   width: 7em;
   height: 9em;
-  top: 190%;
-  left: 62%;
-  margin: -6.5em 0 0 -5em;
+  top: 50%; /* Move the element down by 50% of its own height */
+    left: 50%;
+    transform: translate(80%, -220%);
   -webkit-backface-visibility: hidden;
   font-family: 'Ubuntu', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   text-align: center;
