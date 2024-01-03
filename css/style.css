@@ -296,48 +296,7 @@ p {
 }
 
 
-/* Targeting the list items in your specific navigation bar */
-.navbar-collapse .navbar-nav li a {
-    color: #fff; /* Text color */
-    text-decoration: none; /* No underline by default */
-    letter-spacing: 0.15em; /* Letter spacing */
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
 
-    transition: color 0.3s; /* Smooth transition for color */
-}
-
-/* Initial state of underline effect (hidden) */
-.navbar-collapse .navbar-nav li a:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    background: #000; /* Underline color set to black */
-    width: 0;
-    height: 2px;
-    opacity: 0; /* Make it fully transparent */
-    transition: width 0.3s ease, left 0.3s ease, opacity 0.3s ease;
-}
-
-/* Hover effect */
-.navbar-collapse .navbar-nav li a:hover {
-    color: #333; /* Change to your desired text color */
-}
-
-.navbar-collapse .navbar-nav li a:hover:after {
-    width: 100%; /* Underline expands on hover */
-    left: 0;
-    opacity: 1; /* Make underline visible */
-}
-
-@media screen and (max-height: 300px) {
-    .navbar-collapse .navbar-nav ul {
-        margin-top: 40px;
-    }
-}
 
 
 
@@ -1060,7 +1019,7 @@ footer p {
     background: transparent !important;
   }
   .navbar-default .navbar-toggle .icon-bar {
-    background: #fff;
+    background: #000;
   }
   .navbar-default .navbar-nav > li {
     line-height: 0;
