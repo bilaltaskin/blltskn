@@ -1,12 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Daniels
-    Theme URI: http://
-    Description: Portfolio Onepage Template
-    Author: creativotheme
-    Author URI: http://themeforest.net/user/creativotheme
-    Version: 1.0
-
 -----------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
@@ -1154,7 +1145,7 @@ body{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: var(--spacing-s);
-  grid-row-gap: var(--spacing-xl);
+  grid-row-gap: var(--spacing-l);
   max-width: 500px;
   width: 100%;
 }
@@ -1175,11 +1166,14 @@ body{
   list-style: none;
   position: relative;
   padding: var(--spacing-m);
+  min-height: 100px; /* Minimum height to ensure cards are not too short */
+  max-height: 80px;
 }
 
 .card:before{
   content: '';
   display: block;
+  
   padding-bottom: 85%;
   width: 100%;
 }
