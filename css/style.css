@@ -1,4 +1,13 @@
+/*-----------------------------------------------------------------------------------
 
+    Theme Name: Daniels
+    Theme URI: http://
+    Description: Portfolio Onepage Template
+    Author: creativotheme
+    Author URI: http://themeforest.net/user/creativotheme
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
 TABLE OF CONTENTS
@@ -176,8 +185,8 @@ p {
                      Navbar
 -------------------------------------------------------- */
 .navbar-default {
-    position: fixed !important;
-  padding: 20px 0 30px;
+  position: fixed !important;
+  padding: 0px 0 30px;
   background: #fff;
   border: none;
   border-radius: 0;
@@ -185,6 +194,7 @@ p {
   left: 0;
   width: 100%;
   z-index: 99;
+  padding: 5px 0;
 }
 .navbar-default .navbar-nav > li > a {
   margin: 0 !important;
@@ -258,8 +268,8 @@ p {
   /* Your existing .logo styles */
   color: #1c1c1c;
   float: left;
-  padding-top: 20px;
-  padding-right: 300px;
+  padding-top: 25px;
+  padding-right: 20px;
   font-size: 15px;
   font-weight: 400;
   /*text-transform: lowercase; */
@@ -421,6 +431,8 @@ p {
   padding: 0 0 0 30px;
   position: relative;
 }
+
+
 .hero .hero-img:after {
   content: '';
   width: 80%;
@@ -1167,7 +1179,7 @@ body{
   position: relative;
   padding: var(--spacing-m);
   min-height: 100px; /* Minimum height to ensure cards are not too short */
-  max-height: 80px;
+  max-height: 100px;
 }
 
 .card:before{
@@ -1226,9 +1238,10 @@ body{
 }
 
 
+
 .social-menu ul {
     position: absolute;
-    top: 112%;
+    top: 130%;
     left: 38%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -1260,6 +1273,10 @@ body{
     transform: translate(0,0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
 .social-menu ul li a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
