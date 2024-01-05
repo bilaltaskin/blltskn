@@ -1,14 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Daniels
-    Theme URI: http://
-    Description: Portfolio Onepage Template
-    Author: creativotheme
-    Author URI: http://themeforest.net/user/creativotheme
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
 
 TABLE OF CONTENTS
 
@@ -628,6 +618,12 @@ p {
 /* -------------------------------------------------------
                      Clients
 -------------------------------------------------------- */
+
+.clients {
+    padding-left: 20px; /* Add space on the left side */
+    padding-right: 20px; /* Add space on the right side */
+}
+
 .clients .citem .author-img {
   width: 90px;
   height: 90px;
