@@ -90,7 +90,7 @@
                      i++;
                      setTimeout(typeLogo, 250); // Adjust typing speed as needed
                    } else {
-                     setTimeout(eraseLogo, 1500); // Wait 1 second before erasing
+                     setTimeout(eraseLogo, 3000); // Wait 1 second before erasing
                    }
                  }
 
@@ -101,14 +101,14 @@
                      setTimeout(eraseLogo, 100); // Adjust erasing speed as needed
                    } else {
                      wordIndex = (wordIndex + 1) % words.length; // Cycle through the words
-                     setTimeout(typeLogo, 500); // Wait 0.5 seconds before typing the next word
+                     setTimeout(typeLogo, 100); // Wait 0.5 seconds before typing the next word
                    }
                  }
 
                  // Start typing effect after a 1-second delay
                  setTimeout(() => {
                    typeLogo();
-                 }, 1000); // 1000 milliseconds = 1 second
+                 }, 1500); // 1000 milliseconds = 1 second
                </script>
 
             </div>
