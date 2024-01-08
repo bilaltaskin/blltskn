@@ -258,12 +258,13 @@ p {
   /* Your existing .logo styles */
   color: #1c1c1c;
   float: left;
-  padding-top: 25px;
+  padding-top: 26px;
   padding-right: 30px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 800;
   /*text-transform: lowercase; */
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
+  font-family: "Courier New", monospace;
 }
 .logo:hover, .logo:focus {
   color: #1c1c1c;
