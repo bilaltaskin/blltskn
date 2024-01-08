@@ -258,10 +258,10 @@ p {
   /* Your existing .logo styles */
   color: #1c1c1c;
   float: left;
-  padding-top: 23px;
-  padding-right: 20px;
-  font-size: 15px;
-  font-weight: 400;
+  padding-top: 26px;
+  padding-right: 30px;
+  font-size: 13px;
+  font-weight: 500;
   /*text-transform: lowercase; */
   letter-spacing: 1px;
 }
