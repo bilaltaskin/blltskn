@@ -261,9 +261,9 @@ p {
   padding-top: 26px;
   padding-right: 30px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   /*text-transform: lowercase; */
-  letter-spacing: 0.8px;
+  letter-spacing: 0.7px;
   font-family: "Courier New", monospace;
 }
 .logo:hover, .logo:focus {
