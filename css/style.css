@@ -504,9 +504,9 @@ p {
   transition: all .5s;
 }
 .services .item h6 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .services .item h3 {
